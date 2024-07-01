@@ -8,3 +8,4 @@ TARGET		:=	${PACKAGE}
 
 execute:
 	./bin/${NAME}
+
