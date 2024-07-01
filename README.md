@@ -1,3 +1,3 @@
-# go_template
+# go_Makefile
 
-go_template, episode nil
+go_Makefile, episode nil
