@@ -1,0 +1,10 @@
+ORIGIN		:=	github.com/ed006949
+NAME		:=	go_template
+VERSION		:=	0.0.0
+
+PACKAGE		:=	${ORIGIN}/${NAME}
+
+TARGET		:=	${NAME}
+
+execute:
+	./bin/${NAME}
