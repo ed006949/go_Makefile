@@ -21,6 +21,9 @@ ifneq ($(shell git status --short),)
 	git push
 endif
 
+diff:
+	git diff
+
 init:
 	gh auth login --with-token < ~/.git_token
 	go mod init ${TARGET}
